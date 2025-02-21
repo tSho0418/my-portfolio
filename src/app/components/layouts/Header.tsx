@@ -26,6 +26,11 @@ const Header = () => {
               Skills
             </Link>
           </li>
+          <li>
+            <Link href="/service" className="text-3xl hover:opacity-80 transition-opacity">
+            Qualification
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
