@@ -1,9 +1,15 @@
 import Image from "next/image";
+import Heading from "./components/layouts/Heading";
 
 export default function Home() {
   return (
     <div>
-      こんにちは
+      <Heading title="About"/>
+      <div className="basis-6">
+
+      </div>
+      <Heading title="Skills"/>
+      <Heading title="Qualification"/>
     </div>
   );
 }
