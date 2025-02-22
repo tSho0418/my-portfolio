@@ -7,6 +7,7 @@ import {
 } from "./components/ImageList";
 import Heading from "./components/layouts/Heading";
 import { Slider } from "./components/Slider";
+import Footer from "./components/layouts/Footer";
 
 export default function Home() {
   return (
@@ -136,13 +137,14 @@ export default function Home() {
         id="content"
         className="basis-6 max-w-3xl w-full mx-auto  flex items-center justify-center text-left"
       >
-        <ul className="list-disc ml-10 space-y-5">
+        <ul className="list-disc ml-10 space-y-5 text-2xl">
           <li>TOEIC L&Rテスト スコア755 （2022/11）</li>
           <li>ITパスポート （2023/6）</li>
           <li>基本情報技術者試験 （2023/10）</li>
           <li>応用情報技術者試験 （2024/4）</li>
         </ul>
       </div>
+      <Footer />
     </div>
   );
 }
