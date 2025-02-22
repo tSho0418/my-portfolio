@@ -131,7 +131,7 @@ export default function Home() {
         </div>
       </div>
 
-      <Heading title="Qualification" />
+      <Heading title="Qualifications" />
       <div
         id="content"
         className="basis-6 max-w-3xl w-full mx-auto  flex items-center justify-center text-left"

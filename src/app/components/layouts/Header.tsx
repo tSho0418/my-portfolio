@@ -40,7 +40,7 @@ const Header = () => {
               href="/service"
               className="text-3xl hover:opacity-80 transition-opacity"
             >
-              Qualification
+              Qualifications
             </Link>
           </li>
         </ul>
