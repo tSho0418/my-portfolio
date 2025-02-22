@@ -24,7 +24,7 @@ export default function Home() {
       </h1>
       <div
         id="content"
-        className="basis-6 max-w-3xl w-full mx-auto  flex items-center justify-center text-left p-6"
+        className="basis-6 max-w-3xl w-full mx-auto  flex items-center justify-center text-left p-6 border-b-4"
       >
         明治大学理工学部情報科学科の辰野昇之介です。現在学部3年生でソフトウェア工学研究室に所属しています。
         プログラミング歴は3年、最近は保守性を考慮したコーディングについて関心を持っております。
@@ -33,14 +33,14 @@ export default function Home() {
       <Slider />
 
       <Heading title="Skills" />
-      <div className="p-3">
-        <div className="text-center justify-center font-serif text-3xl">
+      <div className="p-3 ">
+        <div className="text-center justify-center font-serif text-3xl ">
           Frontend
         </div>
         <FrontendImageList />
         <div
           id="content"
-          className="basis-6 max-w-3xl w-full mx-auto  flex items-center text-left p-3"
+          className="basis-6 max-w-3xl w-full mx-auto  flex items-center text-left p-3 border-b-4"
         >
           <ul className="list-disc ml-10 space-y-0">
             <li>
@@ -54,13 +54,13 @@ export default function Home() {
       </div>
 
       <div>
-        <div className="text-center justify-center font-serif text-3xl p-6">
+        <div className="text-center justify-center font-serif text-3xl p-10">
           Backend
         </div>
         <BackendImageList />
         <div
           id="content"
-          className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left p-3"
+          className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left p-3 border-b-4"
         >
           <ul className="list-disc ml-10 space-y-0">
             <li>
@@ -84,13 +84,13 @@ export default function Home() {
       </div>
 
       <div>
-        <div className="text-center justify-center font-serif text-3xl p-6">
+        <div className="text-center justify-center font-serif text-3xl p-10">
           Tools
         </div>
         <ToolImageList />
         <div
           id="content"
-          className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left p-3"
+          className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left p-3 border-b-4"
         >
           <ul className="list-disc ml-10 space-y-0">
             <li>
@@ -107,13 +107,13 @@ export default function Home() {
       </div>
 
       <div>
-        <div className="text-center justify-center font-serif text-3xl p-6">
+        <div className="text-center justify-center font-serif text-3xl p-10">
           Others
         </div>
         <OtherImageList />
         <div
           id="content"
-          className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left p-3"
+          className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left p-3 border-b-4"
         >
           <ul className="list-disc ml-10 space-y-0">
             <li>
