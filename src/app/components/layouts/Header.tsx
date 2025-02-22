@@ -13,35 +13,35 @@ const Header = () => {
         <ul className="flex flex-col md:flex-row font-serif space-y-2 md:space-y-0 md:space-x-32 items-center">
           <li>
             <Link
-              href="/about"
+              href="/"
               className="text-3xl hover:opacity-80 transition-opacity"
             >
               Home
             </Link>
           </li>
           <li>
-            <Link
-              href="/about"
+            <a
+              href="#About"
               className="text-3xl hover:opacity-80 transition-opacity"
             >
               About
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
-              href="/service"
+            <a
+              href="#Skills"
               className="text-3xl hover:opacity-80 transition-opacity"
             >
               Skills
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
-              href="/service"
+            <a
+              href="#Qualifications"
               className="text-3xl hover:opacity-80 transition-opacity"
             >
               Qualifications
-            </Link>
+            </a>
           </li>
         </ul>
       </nav>

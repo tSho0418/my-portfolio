@@ -21,12 +21,11 @@ export default function Home() {
       </div>
       
       <Heading title="About" />
-      <h1 className="text-center justify-center font-bold text-3xl p-4">
+      <h1 id="About" className="text-center justify-center font-bold text-3xl p-4 scroll-mt-64">
         Tatsuno Shonosuke / 辰野昇之介
       </h1>
       <div
-        id="content"
-        className="basis-6 max-w-3xl w-full mx-auto  flex items-center justify-center text-left p-6 border-b-4"
+        className="basis-6 max-w-3xl w-full mx-auto  flex items-center justify-center text-left p-6 border-b-4 "
       >
         <p>
           明治大学理工学部情報科学科の辰野昇之介です。現在学部3年生でソフトウェア工学研究室に所属しています。
@@ -42,7 +41,7 @@ export default function Home() {
       <Slider />
 
       <Heading title="Skills" />
-      <div className="p-3 ">
+      <div className="p-3 scroll-mt-64" id="Skills">
         <div className="text-center justify-center font-serif text-3xl ">
           Frontend
         </div>
@@ -68,7 +67,7 @@ export default function Home() {
         </div>
         <BackendImageList />
         <div
-          id="content"
+          
           className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left p-3 border-b-4"
         >
           <ul className="list-disc ml-10 space-y-0">
@@ -142,7 +141,7 @@ export default function Home() {
 
       <Heading title="Qualifications" />
       <div
-        id="content"
+        id="Qualifications"
         className="basis-6 max-w-3xl w-full mx-auto  flex items-center justify-center text-left"
       >
         <ul className="list-disc ml-10 space-y-5 text-2xl">
