@@ -1,3 +1,4 @@
+import {FrontendImageList, BackendImageList, ToolImageList, OtherImageList} from "./components/ImageList";
 import Heading from "./components/layouts/Heading";
 
 export default function Home() {
@@ -17,87 +18,103 @@ export default function Home() {
       </div>
 
       <Heading title="Skills" />
-      <div className="text-center justify-center font-serif text-3xl">
-        Frontend
+      <div>
+        <div className="text-center justify-center font-serif text-3xl">
+          Frontend
+        </div>
+        <FrontendImageList />
+        <div
+          id="content"
+          className="basis-6 max-w-3xl w-full mx-auto  flex items-center text-left"
+        >
+          <ul className="list-disc ml-10 space-y-0">
+            <li>
+              <strong>HTML, CSS, Javascript： </strong>ウェブアプリ作成
+            </li>
+            <li>
+              <strong>React.js： </strong> ポートフォリオの作成
+            </li>
+          </ul>
+        </div>
       </div>
-      <div
-        id="content"
-        className="basis-6 max-w-3xl w-full mx-auto  flex items-center text-left"
-      >
-        <ul className="list-disc ml-10 space-y-0">
-          <li>
-            <strong>HTML, CSS, Javascript： </strong>ウェブアプリ作成
-          </li>
-          <li>
-            <strong>React.js： </strong> ポートフォリオの作成
-          </li>
-        </ul>
+      
+      <div>
+        <div className="text-center justify-center font-serif text-3xl">
+          Backend
+        </div>
+        <BackendImageList />
+        <div
+          id="content"
+          className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left"
+        >
+          <ul className="list-disc ml-10 space-y-0">
+            <li>
+              <strong>TypeScript： </strong>
+              主にサーバーサイドのプログラミングに使用している言語
+            </li>
+            <li>
+              <strong>Node.js： </strong>Webアプリの開発に用いる環境
+            </li>
+            <li>
+              <strong>Express.js： </strong>時間割アプリの開発に使用
+            </li>
+            <li>
+              <strong>Nunjacks： </strong>主に授業での掲示板アプリ開発に使用
+            </li>
+            <li>
+              <strong>SQLite： </strong>掲示板アプリに使用
+            </li>
+          </ul>
+        </div>
       </div>
-      <div className="text-center justify-center font-serif text-3xl">
-        Backend
+      
+      <div>
+        <div className="text-center justify-center font-serif text-3xl">
+          Tools
+        </div>
+        <ToolImageList />
+        <div
+          id="content"
+          className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left"
+        >
+          <ul className="list-disc ml-10 space-y-0">
+            <li>
+              <strong>VSCode： </strong>コーディング環境
+            </li>
+            <li>
+              <strong>GitLab： </strong>研究室での集団開発や資料共有に使用
+            </li>
+            <li>
+              <strong>Ubuntu： </strong>主な開発環境
+            </li>
+          </ul>
+        </div>
       </div>
-      <div
-        id="content"
-        className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left"
-      >
-        <ul className="list-disc ml-10 space-y-0">
-          <li>
-            <strong>TypeScript： </strong>
-            主にサーバーサイドのプログラミングに使用している言語
-          </li>
-          <li>
-            <strong>Node.js： </strong>Webアプリの開発に用いる環境
-          </li>
-          <li>
-            <strong>Express.js： </strong>時間割アプリの開発に使用
-          </li>
-          <li>
-            <strong>Nunjacks： </strong>主に授業での掲示板アプリ開発に使用
-          </li>
-          <li>
-            <strong>SQLite： </strong>掲示板アプリに使用
-          </li>
-        </ul>
-      </div>
-      <div className="text-center justify-center font-serif text-3xl">
-        Tools
-      </div>
-      <div
-        id="content"
-        className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left"
-      >
-        <ul className="list-disc ml-10 space-y-0">
-          <li>
-            <strong>VSCode： </strong>コーディング環境
-          </li>
-          <li>
-            <strong>GitLab： </strong>研究室での集団開発や資料共有に使用
-          </li>
-          <li>
-            <strong>Ubuntu： </strong>主な開発環境
-          </li>
-        </ul>
-      </div>
-      <div className="text-center justify-center font-serif text-3xl">
+      
+      <div>
+        <div className="text-center justify-center font-serif text-3xl">
         Others
+        </div>
+        <OtherImageList />
+        <div
+          id="content"
+          className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left"
+        >
+          <ul className="list-disc ml-10 space-y-0">
+            <li>
+              <strong>Slack： </strong>
+              演習授業やアルバイトでのコミュニケーションツール
+            </li>
+            <li>
+              <strong>Unity： </strong>ゲーム開発
+            </li>
+            <li>
+              <strong>Blender： </strong>ゲームに登場するオブジェクトのモデリング
+            </li>
+          </ul>
+        </div>
       </div>
-      <div
-        id="content"
-        className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left"
-      >
-        <ul className="list-disc ml-10 space-y-0">
-          <li>
-            <strong>Slack： </strong>
-            演習授業やアルバイトでのコミュニケーションツール
-          </li>
-          <li>
-            <strong>Unity： </strong>ゲーム開発
-          </li>
-          <li>
-            <strong>Blender： </strong>ゲームに登場するオブジェクトのモデリング
-          </li>
-        </ul>
-      </div>
+      
 
       <Heading title="Qualification" />
       <div
