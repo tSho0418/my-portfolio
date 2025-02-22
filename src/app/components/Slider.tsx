@@ -1,10 +1,10 @@
 "use client";
-import { Splide, SplideSlide } from '@splidejs/react-splide';
-import '@splidejs/splide/css'; // デフォルトのテーマを読み込んでいます（コアスタイルのみ読み込む設定も可能）
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/splide/css"; // デフォルトのテーマを読み込んでいます（コアスタイルのみ読み込む設定も可能）
 
 export const Slider = () => {
   return (
-    <div className='basis-6 max-w-lg w-full mx-auto  flex p-10'>
+    <div className="basis-6 max-w-lg w-full mx-auto  flex p-10">
       <Splide
         aria-label="私のお気に入りの画像集"
         options={{
