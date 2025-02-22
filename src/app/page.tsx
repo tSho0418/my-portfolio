@@ -21,7 +21,7 @@ export default function Home() {
           alt="jerryfish"
         />
         <div className="absolute inset-0 flex items-center justify-center ">
-          <p className="text-white text-7xl font-bold">Tatsno Shonosuke</p>
+          <p className="text-white text-7xl font-bold">Tatsuno Shonosuke</p>
         </div>
       </div>
 
