@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const FrontendImageList = () => {
-  return (
-    <div>FrontendImageList</div>
-  )
-}
+  return <div>FrontendImageList</div>;
+};
 
-export default FrontendImageList
+export default FrontendImageList;

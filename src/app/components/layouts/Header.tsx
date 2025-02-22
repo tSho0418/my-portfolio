@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
 const Header = () => {
   return (
@@ -11,30 +11,42 @@ const Header = () => {
           </Link>
         </div>
         <ul className="flex flex-col md:flex-row font-serif space-y-2 md:space-y-0 md:space-x-32 items-center">
-        <li>
-            <Link href="/about" className="text-3xl hover:opacity-80 transition-opacity">
+          <li>
+            <Link
+              href="/about"
+              className="text-3xl hover:opacity-80 transition-opacity"
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link href="/about" className="text-3xl hover:opacity-80 transition-opacity">
+            <Link
+              href="/about"
+              className="text-3xl hover:opacity-80 transition-opacity"
+            >
               About
             </Link>
           </li>
           <li>
-            <Link href="/service" className="text-3xl hover:opacity-80 transition-opacity">
+            <Link
+              href="/service"
+              className="text-3xl hover:opacity-80 transition-opacity"
+            >
               Skills
             </Link>
           </li>
           <li>
-            <Link href="/service" className="text-3xl hover:opacity-80 transition-opacity">
-            Qualification
+            <Link
+              href="/service"
+              className="text-3xl hover:opacity-80 transition-opacity"
+            >
+              Qualification
             </Link>
           </li>
         </ul>
       </nav>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
