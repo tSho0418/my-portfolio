@@ -1,4 +1,9 @@
-import {FrontendImageList, BackendImageList, ToolImageList, OtherImageList} from "./components/ImageList";
+import {
+  FrontendImageList,
+  BackendImageList,
+  ToolImageList,
+  OtherImageList,
+} from "./components/ImageList";
 import Heading from "./components/layouts/Heading";
 
 export default function Home() {
@@ -18,14 +23,14 @@ export default function Home() {
       </div>
 
       <Heading title="Skills" />
-      <div>
+      <div className="p-3">
         <div className="text-center justify-center font-serif text-3xl">
           Frontend
         </div>
         <FrontendImageList />
         <div
           id="content"
-          className="basis-6 max-w-3xl w-full mx-auto  flex items-center text-left"
+          className="basis-6 max-w-3xl w-full mx-auto  flex items-center text-left p-3"
         >
           <ul className="list-disc ml-10 space-y-0">
             <li>
@@ -37,15 +42,15 @@ export default function Home() {
           </ul>
         </div>
       </div>
-      
+
       <div>
-        <div className="text-center justify-center font-serif text-3xl">
+        <div className="text-center justify-center font-serif text-3xl p-6">
           Backend
         </div>
         <BackendImageList />
         <div
           id="content"
-          className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left"
+          className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left p-3"
         >
           <ul className="list-disc ml-10 space-y-0">
             <li>
@@ -67,15 +72,15 @@ export default function Home() {
           </ul>
         </div>
       </div>
-      
+
       <div>
-        <div className="text-center justify-center font-serif text-3xl">
+        <div className="text-center justify-center font-serif text-3xl p-6">
           Tools
         </div>
         <ToolImageList />
         <div
           id="content"
-          className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left"
+          className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left p-3"
         >
           <ul className="list-disc ml-10 space-y-0">
             <li>
@@ -90,15 +95,15 @@ export default function Home() {
           </ul>
         </div>
       </div>
-      
+
       <div>
-        <div className="text-center justify-center font-serif text-3xl">
-        Others
+        <div className="text-center justify-center font-serif text-3xl p-6">
+          Others
         </div>
         <OtherImageList />
         <div
           id="content"
-          className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left"
+          className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left p-3"
         >
           <ul className="list-disc ml-10 space-y-0">
             <li>
@@ -109,12 +114,12 @@ export default function Home() {
               <strong>Unity： </strong>ゲーム開発
             </li>
             <li>
-              <strong>Blender： </strong>ゲームに登場するオブジェクトのモデリング
+              <strong>Blender： </strong>
+              ゲームに登場するオブジェクトのモデリング
             </li>
           </ul>
         </div>
       </div>
-      
 
       <Heading title="Qualification" />
       <div
