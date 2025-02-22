@@ -9,6 +9,7 @@ import Heading from "./components/layouts/Heading";
 import { Slider } from "./components/Slider";
 import Footer from "./components/layouts/Footer";
 
+
 export default function Home() {
   return (
     <div>
@@ -27,10 +28,17 @@ export default function Home() {
         id="content"
         className="basis-6 max-w-3xl w-full mx-auto  flex items-center justify-center text-left p-6 border-b-4"
       >
-        明治大学理工学部情報科学科の辰野昇之介です。現在学部3年生でソフトウェア工学研究室に所属しています。
-        プログラミング歴は3年、最近は保守性を考慮したコーディングについて関心を持っております。
-        現段階では大学院への進学を希望しており、修士卒業後はシステムエンジニアとしてITに関わっていきたいと考えております。よろしくお願いします。
+        <p>
+          明治大学理工学部情報科学科の辰野昇之介です。現在学部3年生でソフトウェア工学研究室に所属しています。
+          プログラミング歴は3年、最近は保守性を考慮したコーディングについて関心を持っております。
+          現段階では大学院への進学を希望しており、修士卒業後はシステムエンジニアとしてITに関わっていきたいと考えております。よろしくお願いします。
+        </p>
       </div>
+      <div className="flex justify-center py-6">
+        <a className="text-blue-500 hover:underline text-lg " target="_blank" rel="noopener noreferrer" href="https://github.com/tSho0418">GitHub</a>
+      </div>
+      
+
       <Slider />
 
       <Heading title="Skills" />
