@@ -3,18 +3,18 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 w-full bg-sky-300 text-white py-6 px-4 md:px-20 shadow-md z-50">
-      <nav className="container x-auto flex flex-col md:flex-row justify-between items-center">
-        <div className="text-4xl font-serif mb-4 md:mb-0">
+    <header className="fixed top-0 left-0 w-full bg-sky-300 text-white py-3 px-4 md:py-6 md:px-20 shadow-md z-50">
+      <nav className="container mx-auto flex justify-between items-center">
+        <div className="text-2xl md:text-4xl font-serif">
           <Link href="/" className="hover:opacity-80 transition-opacity">
             Portfolio
           </Link>
         </div>
-        <ul className="flex flex-col md:flex-row font-serif space-y-2 md:space-y-0 md:space-x-32 items-center">
+        <ul className="hidden md:flex font-serif space-x-12 items-center">
           <li>
             <Link
               href="/"
-              className="text-3xl hover:opacity-80 transition-opacity"
+              className="md:text-3xl hover:opacity-80 transition-opacity"
             >
               Home
             </Link>
@@ -22,7 +22,7 @@ const Header = () => {
           <li>
             <a
               href="#About"
-              className="text-3xl hover:opacity-80 transition-opacity"
+              className="md:text-3xl hover:opacity-80 transition-opacity"
             >
               About
             </a>
@@ -30,7 +30,7 @@ const Header = () => {
           <li>
             <a
               href="#Skills"
-              className="text-3xl hover:opacity-80 transition-opacity"
+              className="md:text-3xl hover:opacity-80 transition-opacity"
             >
               Skills
             </a>
@@ -38,7 +38,7 @@ const Header = () => {
           <li>
             <a
               href="#Qualifications"
-              className="text-3xl hover:opacity-80 transition-opacity"
+              className="md:text-3xl hover:opacity-80 transition-opacity"
             >
               Qualifications
             </a>
