@@ -11,29 +11,29 @@ import Footer from "./components/layouts/Footer";
 
 export default function Home() {
   return (
-    <div>
-      <div className="relative w-full max-w-full mx-auto">
+    <div className="w-full">
+      <div className="relative max-w-full mx-auto">
         <Image
-          className="flex items-center justify-center p-6 w-full h-auto max-w-full max-h-full object-contain"
+          className="flex items-center justify-center p-3 sm:p-6 w-full h-auto max-w-full object-contain"
           width={1500}
           height={1000}
           src="/jerryfish.jpg"
           alt="jerryfish"
         />
         <div className="absolute inset-0 flex items-center justify-center ">
-          <p className="text-white text-7xl font-bold">Tatsuno Shonosuke</p>
+          <p className="text-white text-4xl sm:text-5xl md:text-6xl font-bold text-center">Tatsuno Shonosuke</p>
         </div>
       </div>
 
       <Heading title="About" />
       <h1
         id="About"
-        className="text-center justify-center font-bold text-3xl p-4 scroll-mt-64"
+        className="text-center font-bold text-xl sm:text-2xl md:text-3xl p-4 scroll-mt-64"
       >
         Tatsuno Shonosuke / 辰野昇之介
       </h1>
-      <div className="basis-6 max-w-3xl w-full mx-auto  flex items-center justify-center text-left p-6 border-b-4 ">
-        <p>
+      <div className="max-w-3xl mx-auto flex flex-col items-center text-left p-3 sm:p-6 border-b-4 ">
+        <p className="text-sm sm:text-base leading-relaxed">
           明治大学理工学部情報科学科の辰野昇之介です。現在学部3年生でソフトウェア工学研究室に所属しています。
           プログラミング歴は3年、最近は保守性を考慮したコーディングについて関心を持っております。
           現段階では大学院への進学を希望しており、修士卒業後はシステムエンジニアとしてITに関わっていきたいと考えております。よろしくお願いします。
@@ -41,7 +41,7 @@ export default function Home() {
       </div>
       <div className="flex justify-center py-6">
         <a
-          className="text-blue-500 hover:underline text-lg "
+          className="text-blue-500 hover:underline text-lg sm:text-lg"
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/tSho0418"
@@ -53,16 +53,16 @@ export default function Home() {
       <Slider />
 
       <Heading title="Skills" />
-      <div className="p-3 scroll-mt-64" id="Skills">
-        <div className="text-center justify-center font-serif text-3xl ">
+      <div className="py-3 scroll-mt-64" id="Skills">
+        <div className="text-center justify-center font-serif text-3xl sm:text-3xl">
           Frontend
         </div>
         <FrontendImageList />
         <div
           id="content"
-          className="basis-6 max-w-3xl w-full mx-auto  flex items-center text-left p-3 border-b-4"
+          className="basis-6 max-w-3xl w-full mx-auto  flex items-center text-left py-3 border-b-4"
         >
-          <ul className="list-disc ml-10 space-y-0">
+          <ul className="list-disc ml-5 sm:ml-10 text-sm sm:text-base">
             <li>
               <strong>HTML, CSS, Javascript： </strong>ウェブアプリ作成
             </li>
@@ -74,12 +74,12 @@ export default function Home() {
       </div>
 
       <div>
-        <div className="text-center justify-center font-serif text-3xl p-10">
+        <div className="text-center justify-center font-serif text-3xl sm:text-3xl py-10">
           Backend
         </div>
         <BackendImageList />
-        <div className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left p-3 border-b-4">
-          <ul className="list-disc ml-10 space-y-0">
+        <div className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left py-3 border-b-4">
+          <ul className="list-disc ml-5 sm:ml-10 text-sm sm:text-base">
             <li>
               <strong>TypeScript： </strong>
               主にサーバーサイドのプログラミングに使用している言語
@@ -101,15 +101,15 @@ export default function Home() {
       </div>
 
       <div>
-        <div className="text-center justify-center font-serif text-3xl p-10">
+        <div className="text-center justify-center font-serif text-3xl py-10 sm:text-3xl">
           Tools
         </div>
         <ToolImageList />
         <div
           id="content"
-          className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left p-3 border-b-4"
+          className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left py-3 border-b-4"
         >
-          <ul className="list-disc ml-10 space-y-0">
+          <ul className="list-disc ml-5 sm:ml-10 text-sm sm:text-base">
             <li>
               <strong>VSCode： </strong>コーディング環境
             </li>
@@ -124,7 +124,7 @@ export default function Home() {
       </div>
 
       <div>
-        <div className="text-center justify-center font-serif text-3xl p-10">
+        <div className="text-center justify-center font-serif text-3xl py-10 sm:text-3xl">
           Others
         </div>
         <OtherImageList />
@@ -132,7 +132,7 @@ export default function Home() {
           id="content"
           className="basis-6 max-w-3xl w-full mx-auto  flex items-left text-left p-3 border-b-4"
         >
-          <ul className="list-disc ml-10 space-y-0">
+          <ul className="list-disc ml-5 sm:ml-10 text-sm sm:text-base">
             <li>
               <strong>Slack： </strong>
               演習授業やアルバイトでのコミュニケーションツール
@@ -153,7 +153,7 @@ export default function Home() {
         id="Qualifications"
         className="basis-6 max-w-3xl w-full mx-auto  flex items-center justify-center text-left"
       >
-        <ul className="list-disc ml-10 space-y-5 text-2xl">
+        <ul className="list-disc ml-5 sm:ml-10 text-lg sm:text-xl">
           <li>TOEIC L&Rテスト スコア755 （2022/11）</li>
           <li>ITパスポート （2023/6）</li>
           <li>基本情報技術者試験 （2023/10）</li>
